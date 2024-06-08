@@ -1,8 +1,10 @@
 # FIAR
 This is the implementation of ASE#1221
 
-##Environment
+
+## Environment
 Python : 3.11.7
 
-##Notes
+
+## Notes
 recovery.py reads information about the software from info.json and recovers the architecture.The number of components to be recovered is determined by k.
