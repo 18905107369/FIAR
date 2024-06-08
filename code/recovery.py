@@ -274,11 +274,7 @@ if __name__=='__main__':
         import_vec = import_info[class_name]
         code_vec = code_info[class_name]
         path_vec = path_info[class_name]
-        final_vec = import_vec + code_vec + path_vec + path_vec + path_vec + path_vec
-        # final_vec = import_vec + code_vec + path_vec
-        # code_import_vec = code_vec + import_vec
-        # code_path_vec = code_vec + path_vec
-        import_path_vec = import_vec+ path_vec
+        final_vec = import_vec + code_vec + path_vec
         vec_list.append(final_vec)
         class_list.append(class_name)
 
