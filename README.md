@@ -1,5 +1,5 @@
 # FIAR
-This is the implementation of "Fusing functional information with dependence and directory for architecture recovering precisely"
+This is the implementation of "Fusing functional, dependency, and directory information for precise architecture recovery"
 
 
 ## Environment
