@@ -241,7 +241,15 @@ if __name__=='__main__':
     #     json.dump(result_Dict, f)
 
     dependency_info=result_Dict
+    # for comp, comp_info in result1.items():
+    #     for class_name, class_info in comp_info.items():
 
+    #         body_text = class_info["body"] + " " + " ".join(class_info["methods"])
+    #         input_ids2 = tokenizer(body_text, return_tensors="pt").input_ids   
+    #         out2 = model(input_ids = input_ids2)
+    #         vector_list2 = out2.last_hidden_state[0,-1,:].tolist()
+    #         code_dict[class_name] = vector_list2
+    # function_info=code_dict
     # with open("bash_code_info3.json", "w") as f:
     #     json.dump(code_dict, f)
 
