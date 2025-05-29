@@ -237,6 +237,7 @@ if __name__=='__main__':
             # out2 = model(input_ids = input_ids2)
             # vector_list2 = out2.last_hidden_state[0,-1,:].tolist()
             # code_dict[class_name] = vector_list2
+            function_info=all_cont_vectors
 
             # print(class_info["className"])
             path_text = " ".join(class_info["directory"])
